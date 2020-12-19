@@ -1,0 +1,55 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  /*
+  Telling the CSS we want to keep the width size 
+  even though we give padding on that
+  (When you give padding, you would get longer width than you want
+   because CSS give padding + wanted with)
+  */
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.2);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  /*
+  position: absolute align itself with closest relative father
+  If you don't allocate it, it consider its father as its body
+  */
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav__small-noti {
+  background-color: tomato;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 30px;
+  top: -15px;
+}
