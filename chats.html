@@ -9,7 +9,7 @@
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
       crossorigin="anonymous"
     />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -28,66 +28,45 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i>
-      Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://i.pinimg.com/originals/e4/d2/87/e4d2872b2c817916c56ab10da261fbc9.jpg"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Otter</h4>
-            <h6 class="user-component__subtitle">Studying!!!</h6>
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Friends</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
+    <main class="main-screen">
       <div class="user-component user-component--friends">
         <div class="user-component__column">
           <img
             src="https://ifh.cc/g/Vo9I2Y.jpg"
-            class="user-component__avatar user-component__avatar--sm"
+            class="user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title user-component__title--not-bold">
               Doggy
             </h4>
-            <h6 class="user-component__subtitle">Life is so happy</h6>
+            <h6 class="user-component__subtitle">Wanna go to KFC?</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <span class="user-component__time">18:03</span>
+          <div class="badge">1</div>
+        </div>
       </div>
       <div class="user-component user-component--friends">
         <div class="user-component__column">
           <img
             src="https://ifh.cc/g/RcFtUS.jpg"
-            class="user-component__avatar user-component__avatar--sm"
+            class="user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title user-component__title--not-bold">
               Duck
             </h4>
-            <h6 class="user-component__subtitle">Enjoy swimming</h6>
+            <h6 class="user-component__subtitle">Still studying?</h6>
           </div>
         </div>
         <div class="user-component__column"></div>
@@ -96,13 +75,13 @@
         <div class="user-component__column">
           <img
             src="https://ifh.cc/g/izAdeF.jpg"
-            class="user-component__avatar user-component__avatar--sm"
+            class="user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title user-component__title--not-bold">
               Guinea Pig
             </h4>
-            <h6 class="user-component__subtitle">Smile :D</h6>
+            <h6 class="user-component__subtitle">Where are you at?</h6>
           </div>
         </div>
         <div class="user-component__column"></div>
@@ -111,13 +90,15 @@
         <div class="user-component__column">
           <img
             src="https://ifh.cc/g/3sQnnv.jpg"
-            class="user-component__avatar user-component__avatar--sm"
+            class="user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title user-component__title--not-bold">
               Hamster
             </h4>
-            <h6 class="user-component__subtitle">v^^v</h6>
+            <h6 class="user-component__subtitle">
+              LOOK AT MY PROFILE PIC! I CHANGED IT!!
+            </h6>
           </div>
         </div>
         <div class="user-component__column"></div>
@@ -128,13 +109,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i
+            <span class="nav__notification">1</span>
+            <i class="fas fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
