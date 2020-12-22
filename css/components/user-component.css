@@ -53,9 +53,12 @@ you don't need to write code over and over again
 }
 
 .user-component--friends {
-  margin-bottom: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0px;
 }
-
+.user-component--friends:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 .user-component__time {
   margin-bottom: 10px;
   display: block;
