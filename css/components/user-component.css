@@ -52,14 +52,25 @@ you don't need to write code over and over again
   align-items: flex-end;
 }
 
-.user-component--friends {
+.user-component-friends {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 0px;
 }
-.user-component--friends:last-child {
+.user-component-friends:last-child {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__sub-box {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__icon {
+  color: RGB(60, 137, 242);
+  margin-left: 10px;
+  margin-top: 10px;
 }
